@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 
 def pascal_triangle(n):
@@ -16,7 +16,6 @@ def pascal_triangle(n):
             current_row.append(val)
 
         current_row.append(1)
-
         triangle.append(current_row)
 
     return triangle
