@@ -1,7 +1,18 @@
 #!/usr/bin/python3
+"""
+Module 0-pascal_triangle
+Define a fonction pascal's triangle
+"""
 
 
 def pascal_triangle(n):
+    """
+    Create a list of list in integers in Pascal's triangle.
+    Args:
+        n (int): the number of lines of triangle.
+    Returns:
+        list: a list dof lists of integers.
+    """
     if n <= 0:
         return []
 
