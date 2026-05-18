@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Module to solve the lockboxes puzzle.
 """
@@ -27,7 +27,6 @@ def canUnlockAll(boxes):
 
     while boxes_to_check:
         current_box = boxes_to_check.pop()
-
         for key in boxes[current_box]:
             if key < total_boxes and key not in opened_boxes:
                 opened_boxes.add(key)
