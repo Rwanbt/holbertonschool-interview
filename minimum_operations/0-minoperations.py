@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """module for calculate the minimum operation number"""
 
 
 def minOperations(n):
     """Calculate the minimum operations"""
-    n = int
     if n <= 1:
         return 0
 
