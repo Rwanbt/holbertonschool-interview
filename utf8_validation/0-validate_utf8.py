@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Module pour valider l'encodage UTF-8
+Module to validate UTF-8 encoding
 """
 
 
 def validUTF8(data):
     """
-    Détermine si une liste d'entiers est un encodage UTF-8 valide.
+    Determines if a given data set represents a valid UTF-8 encoding.
     """
     n_bytes = 0
 
