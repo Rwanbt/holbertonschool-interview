@@ -1,0 +1,1 @@
+Exercices of n queen
